@@ -5,8 +5,7 @@ import sys
 with open(sys.argv[1], 'r') as f:
     data = [line.split(' ') for line in f]
 
-dx = 0
-dy = 0
+dx = dy = 0
 for dir, dist in data:
     dist = int(dist)
     if dir == 'forward':
