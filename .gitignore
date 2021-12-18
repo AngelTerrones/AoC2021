@@ -3,3 +3,5 @@ __pycache__
 *.txt
 .vim/
 .git/
+.vscode
+*Zone.Iden*
